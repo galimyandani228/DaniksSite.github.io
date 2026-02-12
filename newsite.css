@@ -1,0 +1,201 @@
+body {
+    background-color: #1F1D28;
+    text-shadow: black 5px 10px 4px;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: arial black;
+    color: white;
+    margin: 0;
+    max-width: 100%;
+}
+h2 {
+    color: whitesmoke;
+    text-align: justify;
+    font-family: arial black;
+    font-size: 20px;
+    max-width: 100%;
+}
+h3 {
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: arial black;
+    max-width: 100%;
+}
+h4 {
+    font-size: 15px;
+    font-family: arial black;
+    color: whitesmoke;
+    text-align: center;
+    max-width: 100%;
+}
+li {
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: arial black;
+    max-width: 100%;
+}
+.mylove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    font-family: arial black;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    gap: 100px;
+}
+.gallery {
+    margin-left: 60px;
+    max-width: 100%;
+}
+.text {
+    margin-left: 10px;
+    max-width: 100%;
+}
+img {
+    margin-inline: 10px;
+    width: 300px;
+    max-width: 90%;
+    height: auto;
+    margin-top: 80px;
+    box-shadow: 0 0 8px 4px #6a11cb;
+    border-radius: 15px;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.block2 {
+    margin-top: 80px;
+}
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+button {
+    background: radial-gradient(black, #160728);
+    color: white;
+    padding: 16px 60px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-inline: 20px;
+    max-width: 100%;
+    box-shadow: 0 0 8px 4px #6a11cb;
+}
+.Num1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: arial black;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.My_images {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.me1, .me2, .me3, .me4 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 0 8px 4px #6a11cb;
+    border-radius: 10px;
+    margin-top: 40px;
+    max-width: 90%;
+}
+.Skills {
+    font-size: 50px;
+    font-family: arial black;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 150px;
+    max-width: 100%;
+}
+.skillscount {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.skill1, .skill2, .skill3, .skill4 {
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    max-width: 90%;
+    height: auto;
+}
+/* Текст строго по центру под иконками */
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.group h4 {
+    font-size: 15px;
+    font-family: arial black;
+    color: whitesmoke;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+/* Кнопки строго под фактами обо мне */
+.information {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center;
+    margin: 50px; 
+}
+
+.information .text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.information .gallery {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Все transition и hover в одном месте */
+h1, h2, h3, li, .Num1, button, img, 
+.me1, .me2, .me3, .me4, .plus,
+.skill1, .skill2, .skill3, .skill4, 
+h4, .group h4, p {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+h1:hover, h2:hover, h3:hover, li:hover, 
+.Num1:hover, button:hover, img:hover, 
+.me1:hover, .me2:hover, .me3:hover, .me4:hover, .plus:hover, 
+.skill1:hover, .skill2:hover, .skill3:hover, .skill4:hover, 
+h4:hover, .group h4:hover, p:hover {
+    transform: scale(1.05);
+}
